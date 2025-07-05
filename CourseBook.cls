@@ -25,6 +25,7 @@
 \RequirePackage{titling}
 \RequirePackage[bookmarks,pdfusetitle]{hyperref}
 \RequirePackage{minted}
+\RequirePackage{mwe} % provides example-image placeholder
 \RequirePackage{setspace}
 \RequirePackage{etoolbox}
 \RequirePackage{xparse}

@@ -19,13 +19,9 @@
     \renewcommand{\headrulewidth}{0pt} % Remove header rule.
     \fancyfoot[ORF,ELF]{\thepage\vspace{3pt}} % Place page number at the bottom.
 
-    % Add the document version to the footer of the document.
-    \ifthenelse{\equal{\DocStageOption}{working}}{
-        \fancyfoot[OCF,ECF]{\small\GetDocumentVersion~-~\textit{\today}}
-    }{}
+    % Uncomment the next line to include the document version in the footer
+    % \fancyfoot[OCF,ECF]{\small\GetDocumentVersion~-~\textit{\today}}
 }
 
-% Add the document version to the footer of the document.
-\ifthenelse{\equal{\DocStageOption}{working}}{%
-    \fancyfoot[OCF,ECF]{\small\GetDocumentVersion~-~\textit{\today}}%
-}{}
+% Uncomment the next line to include the document version on all pages
+% \fancyfoot[OCF,ECF]{\small\GetDocumentVersion~-~\textit{\today}}

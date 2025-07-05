@@ -31,7 +31,8 @@ In \LaTeX, integrating figures is a straightforward process. To insert them, you
 
 \begin{figure}[!htpb]
     \centering
-    \includegraphics[width=\linewidth]{Figures/PezizaTuberosa.jpg}
+    % Placeholder image from the mwe package.
+    \includegraphics[width=\linewidth]{example-image}
     \caption[Illustration of the fungus Dumontinia tuberosa.]{Illustration of the fungus Dumontinia tuberosa by physician, mycologist, and illustrator Charles Tulasne (1816–1884) in the book Selecta Fungorum Carpologia (1861–65). (Name of the original work: Peziza tuberosa parasite on Anemone nemorosa).}
     \label{fig:figure-01}
 \end{figure}
@@ -42,14 +43,14 @@ For comparison or for other reasons, you can insert side-by-side figures using b
     \centering
     \begin{subfigure}{0.45\textwidth}
         \centering
-        \includegraphics[width=0.9\textwidth]{Figures/PezizaTuberosa.jpg}
+        \includegraphics[width=0.9\textwidth]{example-image}
         \caption{Caption for figure 1.}
         \label{fig:figure-02.1}
     \end{subfigure}
     \hspace{.5cm} % Adjust the space as needed.
     \begin{subfigure}{0.45\textwidth}
         \centering
-        \includegraphics[width=0.9\textwidth]{Figures/PezizaTuberosa.jpg}
+        \includegraphics[width=0.9\textwidth]{example-image}
         \caption{Caption for figure 2.}
         \label{fig:figure-02.2}
     \end{subfigure}
